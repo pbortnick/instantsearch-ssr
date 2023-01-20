@@ -63,12 +63,7 @@ export default function HomePage({ serverState, url }: HomePageProps) {
             <Panel header="categories">
               <RefinementList attribute="categories" />
             </Panel>
-            <Panel header="brand">
-              <RefinementList attribute="brand" />
-            </Panel>
-            <Panel header="categories">
-              <RefinementList attribute="categories" />
-            </Panel>
+            <DynamicWidgets fallbackComponent={FallbackComponent} />
           </div>
           <div>
             <SearchBox />
