@@ -63,6 +63,12 @@ export default function HomePage({ serverState, url }: HomePageProps) {
             <Panel header="categories">
               <RefinementList attribute="categories" />
             </Panel>
+            <Panel header="brand">
+              <RefinementList attribute="brand" />
+            </Panel>
+            <Panel header="categories">
+              <RefinementList attribute="categories" />
+            </Panel>
           </div>
           <div>
             <SearchBox />
