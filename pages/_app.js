@@ -8,6 +8,6 @@ function MyApp({ Component, pageProps, layoutProps }) {
 
 export default MyApp;
 
-App.getInitialProps = async ({ Component, ctx }) => {
+MyApp.getInitialProps = async ({ Component, ctx }) => {
   return { pageProps: {prop: true}, layoutData: { layout: true } }
 }
